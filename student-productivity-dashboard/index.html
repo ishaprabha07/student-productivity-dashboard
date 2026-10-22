@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple student productivity dashboard for planning study sessions and tracking daily goals.">
+  <title>StudySpace | Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="StudySpace home"><span class="brand-mark">S</span> StudySpace</a>
+    <span class="topbar-note">A little progress every day ✦</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <div>
+        <p class="eyebrow">YOUR STUDY CORNER</p>
+        <h1>Make today <span>count.</span></h1>
+        <p class="subheading">A calmer way to plan your learning, one task at a time.</p>
+      </div>
+      <div class="date-card">
+        <span class="date-icon">☀</span>
+        <div><strong>New day, new goals</strong><small>Start where you are.</small></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Study overview">
+      <article class="stat-card">
+        <span class="stat-icon lavender">✎</span>
+        <div><p>Today's focus</p><strong>3 priorities</strong><small>Keep it simple</small></div>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon mint">◷</span>
+        <div><p>Study target</p><strong>4 hours</strong><small>Little by little</small></div>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon peach">✦</span>
+        <div><p>Weekly mindset</p><strong>Progress</strong><small>Over perfection</small></div>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <article class="panel priorities">
+        <div class="panel-heading">
+          <div><p class="eyebrow">STAY ON TRACK</p><h2>Today's priorities</h2></div>
+          <span class="pill">3 tasks</span>
+        </div>
+        <ul class="task-list">
+          <li><span class="check" aria-hidden="true">✓</span><div><strong>Revise one topic</strong><small>Build on what you know</small></div><span class="task-time">45 min</span></li>
+          <li><span class="check empty" aria-hidden="true"></span><div><strong>Practice coding</strong><small>Solve one small problem</small></div><span class="task-time">60 min</span></li>
+          <li><span class="check empty" aria-hidden="true"></span><div><strong>Review your notes</strong><small>Finish with a quick recap</small></div><span class="task-time">30 min</span></li>
+        </ul>
+        <p class="helper">Tip: focus on the next step, not the whole staircase.</p>
+      </article>
+
+      <article class="panel timetable">
+        <div class="panel-heading">
+          <div><p class="eyebrow">A GENTLE PLAN</p><h2>Study timetable</h2></div>
+          <span class="calendar-icon">▦</span>
+        </div>
+        <div class="schedule-row"><span class="time">09:00</span><span class="schedule-dot purple"></span><div><strong>Deep focus</strong><small>Core subject revision</small></div></div>
+        <div class="schedule-row"><span class="time">11:00</span><span class="schedule-dot green"></span><div><strong>Practice session</strong><small>Coding or exercises</small></div></div>
+        <div class="schedule-row"><span class="time">16:00</span><span class="schedule-dot orange"></span><div><strong>Review & reflect</strong><small>Notes and next steps</small></div></div>
+      </article>
+    </section>
+
+    <section class="quote-panel">
+      <span class="quote-mark">“</span>
+      <div><p>You don't have to do everything today. Just do the next useful thing.</p><small>A reminder for your learning journey</small></div>
+    </section>
+  </main>
+
+  <footer><span>StudySpace</span><span>Designed for focused, balanced learning · HTML & CSS</span></footer>
+</body>
+</html>
